@@ -1,0 +1,181 @@
+
+$colorParrafos:rgba(0, 128, 0, 0.479);
+$colorMain: rgba(228, 227, 227, 0.925);
+$colorFuenteTitulos: rgb(0, 128, 0);
+$colorFuente: black;
+$colorGrisOscuro: rgba(61, 59, 59, 0.363);
+
+
+
+footer{ 
+    background-color:rgba(128, 128, 128, 0.801) ;
+    .contacto--footer{
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+        word-spacing: 20px;
+        text-align: center;
+            ul{
+                     
+               li{
+                display: inline-block;
+                word-spacing: 5px;
+                 margin: 25px;
+                }
+            }
+    }
+}
+
+.textoCentro--quienesSomos{
+    display: flex;
+    width: 1000px;
+    margin: 25px 0px 25px 250px;
+    background-color:$colorParrafos;
+    font-size: 25px;
+    text-align: center;
+}
+.sectorContacto{
+    display: block;
+    width: 350px;
+    margin: 50px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+
+            .form-group{
+                display: inline;
+                width: 750px;  
+            #botones{
+            display: block;
+            width: 1000px;
+            }
+            .comment{
+            display: block
+            }
+            .custom-control custom-checkbox{
+            display: inline;
+             width: 650px;
+            }
+            .custom-control-label{
+             width: 350px;
+            }                
+}
+}
+section{  
+    .textoCentro--servicios{
+        p{
+        font-size: 25px;
+        background-color: $colorParrafos;
+        }   
+        h3{
+        font-size: 30px;
+        color:$colorFuenteTitulos;
+        text-decoration: underline;
+        }
+        
+    }
+}
+.textoCentro--inicio{
+    text-align: center;
+    font-size: 25px;
+    margin-left:200px;
+    .container{
+        margin: 50px 0 50px 0;
+        align-items: center;
+
+        .col-lg-6{
+            justify-content: center;
+            p{ 
+                width: 500px;
+                height: 250px;
+                background-color:$colorParrafos;
+                margin-left:21px;
+            } 
+        }
+            .titulo--manejo {
+                font-size: 25px;
+                color: $colorFuenteTitulos;
+                text-decoration: underline;
+                text-align: center;
+            }
+            .titulo--fronteras{
+                font-size: 25px;
+                color: $colorFuenteTitulos;
+                text-decoration: underline;
+                text-align: center;
+
+                .foto--fronteras{   
+                    margin-left: 50px;
+                    margin-top: 25px;
+                }
+            }
+ 
+    } 
+}
+#presentacion--empresa{
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 35px;
+        text-align: center;
+        background-color:$colorParrafos; 
+    
+        p:hover{
+            background-color: rgb(21, 226, 21);
+        }
+    }
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-areas: "Servicio Duración Aplicación" "Desratización 20Min Pegamento" "Desinsectación 15Min Pulverización";
+    margin: 50px;
+        div{
+            border: 2px solid $colorFuente;
+            text-align: center;
+            background-color: $colorParrafos;
+}
+        .a{grid-area: Servicio; font-weight: bold;}
+        .b{grid-area: Duración;font-weight: bold;}
+        .c{grid-area: Aplicación;font-weight: bold;}
+        .d{grid-area: Desratización;}
+        .e{grid-area: 20Min;}
+        .f{grid-area: Pegamento;}
+        .g{grid-area: Desinsectación;}
+        .h{grid-area: 15Min;}
+        .i{grid-area: Pulverización;}
+}
+.menuPrincipal--header{
+    word-spacing: 50px;
+    list-style-type: none;
+    border-width: 2.5px;
+    border-style: solid; 
+    background-color: $colorGrisOscuro;
+    height: 47px;
+    text-align: center;
+        ul{  
+            li{
+                display: inline-block;
+                a{
+                    font-size: 25px;
+                    text-decoration: none;
+                    word-spacing: 4px;
+                    color: $colorFuente;
+                    a:hover{
+                        color: blue;
+                    }
+                }
+            }
+        }
+}
+.tituloPrincipal{
+    height: 65px;
+    color:rgb(8, 184, 8);
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
