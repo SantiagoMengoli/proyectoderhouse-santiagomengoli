@@ -8,10 +8,9 @@ footer {
     word-spacing: 20px;
     text-align: center; }
     footer .contacto--footer ul li {
-      display: inline-block; }
-      footer .contacto--footer ul li {
-        word-spacing: 5px;
-        margin: 25px; }
+      display: inline-block;
+      word-spacing: 5px;
+      margin: 25px; }
 
 .textoCentro--quienesSomos {
   display: flex;
@@ -138,12 +137,17 @@ section .textoCentro--servicios h3 {
       .menuPrincipal--header ul li a a:hover {
         color: blue; }
 
-.tituloPrincipal {
-  height: 65px;
-  color: #08b808;
-  text-decoration: underline;
-  font-size: 40px;
-  text-align: left;
-  padding: 10px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold; }
+.header--principalIndex {
+  background-image: url(../img/mundo1.jpg);
+  background-size: cover;
+  height: 200px; }
+  .header--principalIndex .tituloPrincipal {
+    color: #1ce41c;
+    background-color: rgba(128, 128, 128, 0.503);
+    text-decoration: underline;
+    font-size: 90px;
+    height: 200px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; }
