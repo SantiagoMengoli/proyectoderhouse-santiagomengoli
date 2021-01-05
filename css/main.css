@@ -27,7 +27,7 @@ footer {
 .sectorContacto {
   display: block;
   width: 350px;
-  margin: 50px;
+  margin: 0px 50px 50px 50px;
   margin-left: 600px;
   margin-bottom: 50px;
   font-size: 20px; }
@@ -152,6 +152,7 @@ section .textoCentro--servicios h3 {
 
 .header--principalIndex .tituloPrincipal {
   color: #1ce41c;
+  text-shadow: -2px -2px 1px black;
   background-color: rgba(128, 128, 128, 0.503);
   text-decoration: underline;
   font-size: 90px;
